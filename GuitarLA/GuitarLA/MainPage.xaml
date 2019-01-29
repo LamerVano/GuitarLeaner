@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GuitarLA"
+             x:Class="GuitarLA.MainPage"
+             Title="GuitarLA"
+             BackgroundColor="Black">
+
+    <ContentView>
+        <StackLayout>
+            <StackLayout>
+                <Button Text="Тюнер" BackgroundColor="Black" TextColor="Snow"
+                            BorderColor="DodgerBlue" BorderWidth="1" Clicked="ToTunerPage"></Button>
+                <Button Text="Обучение" BackgroundColor="Black" TextColor="Snow"
+                            BorderColor="DodgerBlue" BorderWidth="1" Clicked="ToLearningPage"></Button>
+                <Button Text="Практика" BackgroundColor="Black" TextColor="Snow"
+                            BorderColor="DodgerBlue" BorderWidth="1" Clicked="ToPractisePage"></Button>
+            </StackLayout>
+            <Button Text="Выход" VerticalOptions="End" HorizontalOptions="End" BackgroundColor="Black"
+                    TextColor="Snow" BorderColor="DodgerBlue" BorderWidth="1" 
+                        TranslationY="350" Clicked ="ToCloseOne"></Button>
+        </StackLayout>
+    </ContentView>
+
+</ContentPage>

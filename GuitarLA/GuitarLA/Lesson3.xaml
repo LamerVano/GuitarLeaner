@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuitarLA.Lesson3"
+             Title="Урок 3"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Label TextColor="RosyBrown" HorizontalOptions="Center" FontSize="Large" Text="Настройка гитары тюнером"/>
+                    <Label TextColor="Snow" Text="1. Вы включаете тюнер, кладете его рядом с гитарой (Есть в приложении);"/>
+                    <Label TextColor="Snow" Text="2. Дергаете первую струну и смотрите показатели на тюнере. Он будет показывать вам, как звучит струна - и как ее нужно натянуть (выше или ниже);"/>
+                    <Label TextColor="Snow" Text="3. таким образом вы будете крутить колок до тех пор, пока тюнер не покажет, что звучание идеальное;"/>
+                    <Label TextColor="Snow" Text="4. так вы проделываете с каждой струной - и в итоге, когда все струны звучат оптимально (по тюнеру), гитару можно считать настроенной."/>
+                    <Label TextColor="Snow" Text="   Настройка гитары тюнером - хороший и практичный вариант для настройки гитары."/>
+                    <Label TextColor="Snow" Text="   Способы настройки гитары: самый легкий и удобный способ - приложение на телефон, настройка гитары тюнером, онлайн настройка гитары, самостоятельная настройка гитары."/>
+                    <Button TextColor="Snow" Text="Тюнер" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                            BorderWidth="1" Clicked="ToTunerPage"/>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

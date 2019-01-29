@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuitarLA.LearningPage"
+             Title="Learning"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Button Text="Урок 1" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                            BorderWidth="1" TextColor="Snow" Clicked="ToLesson1"></Button>
+                    <Button Text="Урок 2" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                            BorderWidth="1" TextColor="Snow" Clicked="ToLesson2"></Button>
+                    <Button Text="Урок 3" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                            BorderWidth="1" TextColor="Snow" Clicked="ToLesson3"></Button>
+                    <Button Text="Урок 4" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                            BorderWidth="1" TextColor="Snow" Clicked="ToLesson4"></Button>
+                    <Button Text="Урок 5" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                            BorderWidth="1" TextColor="Snow" Clicked="ToLesson5"></Button>
+                    <Button Text="Урок 6" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                            BorderWidth="1" TextColor="Snow" Clicked="ToLesson6"></Button>
+                </StackLayout>
+            </ScrollView>
+            <RelativeLayout>
+                <Button Text="К Практике" BackgroundColor="Black" TextColor="Snow"
+                        BorderColor="DodgerBlue" BorderWidth="1" Clicked="ToPractisePage" TranslationX="150"></Button>
+                <Button Text="На Главную" BackgroundColor="Black" TextColor="Snow"
+                        BorderColor="DodgerBlue" BorderWidth="1" Clicked="ToMainPage" TranslationX="250"></Button>
+            </RelativeLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuitarLA.Lesson6"
+             Title="Урок 6"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Label TextColor="RosyBrown" HorizontalOptions="Center" Text="Что такое гитарный бой" FontSize="Large"/>
+                    <Label TextColor="Snow" Text="   Гитарный бой - это одна из разновидности музыкального аккомпанемента, в его основе лежит ударная техника звукоизвлечения."/>
+                    <Label TextColor="Snow" Text="Бой – это цикл повторяющихся движений, где используется вся ладонь, в отличие от перебора."/>
+                    <Image Source="boj1.jpg"/>
+                    <Label TextColor="RosyBrown" HorizontalOptions="Center" FontSize="Large" Text="Как играть бой на гитаре"/>
+                    <Label TextColor="Snow" Text="   Как играть бой на гитаре? Вопрос спорный и не имеет однозначного ответа. Есть много видов боев на гитаре - и все они играются по-разному. Нет таких единых движений для всех боев, каждый из них уникальный."/>
+                    <Label TextColor="Snow" Text="   Есть лишь небольшой список движений по струнам, из которых обычно и составляют бой:
+
+проведение большим пальцем вниз по струнам;
+проведение большим пальцем вверх по струнам;
+заглушка;
+открытый удар по струнам (похож на заглушку, только без глушения)."/>
+                    <Label TextColor="Snow" Text="   Это основные 4 разных движения, из которых обычно составляют бой."/>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

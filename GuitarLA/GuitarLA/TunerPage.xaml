@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuitarLA.TunerPage"
+             Title="Tuner"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="label" Text="0" HorizontalOptions="Center"
+                   TextColor="Snow"></Label>
+
+            <RelativeLayout>
+                <Button x:Name="D" Text="D" Clicked="D_Click" 
+                    BackgroundColor="Black" BorderColor="DodgerBlue" BorderWidth="1" TextColor="Snow"></Button>
+                <Button x:Name="G" Text="G" Clicked="G_Click" 
+                    BackgroundColor="Black" BorderColor="DodgerBlue" BorderWidth="1" TextColor="Snow" TranslationX="250"></Button>
+            </RelativeLayout>
+            <RelativeLayout>
+                <Button x:Name="A" Text="A" Clicked="A_Click" 
+                    BackgroundColor="Black" BorderColor="DodgerBlue" BorderWidth="1" TextColor="Snow"></Button>
+                <Button x:Name="H" Text="H" Clicked="H_Click" 
+                    BackgroundColor="Black" BorderColor="DodgerBlue" BorderWidth="1" TextColor="Snow" TranslationX="250"></Button>
+            </RelativeLayout>
+            <RelativeLayout>
+                <Button x:Name="E1" Text="E1" Clicked="E1_Click" 
+                    BackgroundColor="Black" BorderColor="DodgerBlue" BorderWidth="1" TextColor="Snow"></Button>
+                <Button x:Name="E2" Text="E2" Clicked="E2_Click" 
+                    BackgroundColor="Black" BorderColor="DodgerBlue" BorderWidth="1" TextColor="Snow" TranslationX="250"></Button>
+            </RelativeLayout>
+            <Button Text="На Главную" Clicked="ToMainPage" 
+                    BackgroundColor="Black" BorderColor="DodgerBlue" BorderWidth="1" TextColor="Snow"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

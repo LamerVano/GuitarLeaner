@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuitarLA.PractisePage"
+             Title="Practise"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="На время" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                    BorderWidth="1" TextColor="Snow" Clicked="ToOnTimeGame"></Button>
+            <Button Text="На Память" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                    BorderWidth="1" TextColor="Snow" Clicked="ToMemoryGame"></Button>
+            <Button Text="На Слух" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                    BorderWidth="1" TextColor="Snow" Clicked="ToHearingPage"></Button>
+            <StackLayout>
+                <Label x:Name="changeColor" Text="Chosen accords" TextColor="Snow" FontSize="Large"/>
+                <Label x:Name="selected" TextColor="Snow" FontSize="Large"/>
+                <ScrollView>
+                    <ListView x:Name="accordList" BackgroundColor="Black" ItemSelected="accordList_ItemSelected" />
+                </ScrollView>
+            </StackLayout>
+            <RelativeLayout>
+                <Button Text="К Обучению" BackgroundColor="Black" TextColor="Snow" BorderColor="DodgerBlue" 
+                        BorderWidth="1" Clicked="ToLearningPage" TranslationX="150"></Button>
+                <Button Text="На Главную" BackgroundColor="Black" TextColor="Snow" BorderColor="DodgerBlue" 
+                        BorderWidth="1" Clicked="ToMainPage" TranslationX="250"></Button>
+            </RelativeLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

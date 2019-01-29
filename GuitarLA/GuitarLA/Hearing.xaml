@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuitarLA.Hearing"
+             Title="Hearing Practise"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout>
+            <RelativeLayout>
+                <Label x:Name="checkResult" TextColor="Snow" FontSize="Large"/>
+                <Button Text="RepeatAudio" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                    BorderWidth="1" TextColor="Snow" TranslationX="200" Clicked="repAudio"/>
+            </RelativeLayout>
+
+            <RelativeLayout>
+                <ListView x:Name="accord1" WidthRequest="30" 
+                      BackgroundColor="Snow" ItemSelected="accord1_ItemSelected" />
+                <ListView x:Name="accord2" WidthRequest="30" 
+                      BackgroundColor="Snow" ItemSelected="accord2_ItemSelected" TranslationX="32"/>
+                <ListView x:Name="accord3" WidthRequest="30" 
+                      BackgroundColor="Snow" ItemSelected="accord3_ItemSelected" TranslationX="64"/>
+                <ListView x:Name="accord4" WidthRequest="30" 
+                      BackgroundColor="Snow" ItemSelected="accord4_ItemSelected" TranslationX="96"/>
+                <ListView x:Name="accord5" WidthRequest="30" 
+                      BackgroundColor="Snow" ItemSelected="accord5_ItemSelected" TranslationX="128"/>
+                <ListView x:Name="accord6" WidthRequest="30" 
+                      BackgroundColor="Snow" ItemSelected="accord6_ItemSelected" TranslationX="160"/>
+            </RelativeLayout>
+            <RelativeLayout>
+                <Button Text="Clear All" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                    BorderWidth="1" TextColor="Snow" Clicked="ClearAll"/>
+                <Button Text="Setup" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                    BorderWidth="1" TextColor="Snow" TranslationX="100" Clicked="Setup"/>
+            </RelativeLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

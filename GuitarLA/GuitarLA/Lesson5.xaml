@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuitarLA.Lesson5"
+             Title="Урок 5"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Label TextColor="RosyBrown" HorizontalOptions="Center" Text="Постановка аккорда" FontSize="Large"/>
+                    <Label TextColor="Snow" Text="   Посмотрите, как примерно выглядит положение пальцев руки (да и всей руки) на грифе при постановке аккорда."/>
+                    <Image Source="imennotak.jpg"/>
+                    <Label TextColor="Snow" Text="   Давайте сразу сделаем несколько замечаний по поводу картинки выше."/>
+                    <Label TextColor="Snow" Text="   Это правильная постановка аккорда: между ладонью и грифом есть пространство; большой палец выпирает за гриф."/>
+                    <Label TextColor="Snow" Text="   Пример неверной постановки:"/>
+                    <Image Source="taknelzya.jpg"/>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

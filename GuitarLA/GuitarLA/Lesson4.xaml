@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuitarLA.Lesson4"
+             Title="Урок 4"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Label TextColor="RosyBrown" HorizontalOptions="Center" FontSize="Large" Text="Аккорды"/>
+                    <Label TextColor="Snow" Text="   В этой статье я постараюсь наиболее подробно и понятно описать, что такое аккорды и показать Вам, какие есть самые основные аккорды для начинающих, с которых нужно всегда начинать свое обучение. Итак, приступим."/>
+                    <Label TextColor="Snow" Text="   Аккорды – определенная расстановка пальцев левой рукой на грифе для получения определенного звука. И если правой рукой на гитаре мы играем бой или переборы, то левой рукой мы должны зажимать аккорды."/>
+                    <Label TextColor="RosyBrown" HorizontalOptions="Center" FontSize="Large" Text="Основные аккорды"/>
+                    <Label TextColor="Snow" Text="   Аккордов - несметное количество (больше 1000), но это не значит, что Вам нужно учить все - или учить много. Есть несколько основных аккордов, которых достаточно для игры практически любой песни по аккордам. Итак, для того, чтобы научиться играть на гитаре, вам нужно начать обучение с этих аккордов:"/>
+                    <Button Text="A" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                    BorderWidth="1" TextColor="Snow" Clicked="ToAccordA"></Button>
+                    <Button Text="Am" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                    BorderWidth="1" TextColor="Snow" Clicked="ToAccordAm"></Button>
+                    <Button Text="Dm" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                    BorderWidth="1" TextColor="Snow" Clicked="ToAccordDm"></Button>
+                    <Button Text="E" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                    BorderWidth="1" TextColor="Snow" Clicked="ToAccordE"></Button>
+                    <Button Text="G" BackgroundColor="Black" BorderColor="DodgerBlue" 
+                    BorderWidth="1" TextColor="Snow" Clicked="ToAccordG"></Button>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
